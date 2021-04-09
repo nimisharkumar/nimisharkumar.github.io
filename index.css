@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+@font-face {
+    font-family: Noot;
+    src: url("fonts/Noot.otf") format("opentype");
+}
+.main {
+    padding: 55px 0;
+    margin: auto;
+}
+.header-block {
+    display: block;
+    margin: auto;
+}
+
+.name-header {
+    font-family: 'Noot';
+    color: #73cdff;
+    text-shadow: -2px -2px #ffde59;
+    -webkit-text-stroke: 1px black;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.landing-img {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
