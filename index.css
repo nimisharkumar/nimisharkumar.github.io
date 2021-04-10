@@ -35,5 +35,5 @@ map area {
 .landing-img {
     display: block;
     margin: auto;
-    width: clamp(350px, 50%, 600px);
+    width: 600px;
 }
