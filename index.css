@@ -1,6 +1,12 @@
 body {
     background-color: black;
     margin: 0px;
+    overflow: hidden;
+}
+@media only screen and (min-width:800px) {
+    body{ 
+        background-image: url('images/bg.png');
+    }
 }
 @font-face {
     font-family: Noot;
@@ -17,7 +23,6 @@ map area {
     display: block;
     margin: auto;
 }
-
 .name-header {
     font-family: 'Noot';
     color: #73cdff;
@@ -30,4 +35,5 @@ map area {
 .landing-img {
     display: block;
     margin: auto;
+    width: clamp(350px, 50%, 600px);
 }
