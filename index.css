@@ -34,7 +34,21 @@ map area {
     text-transform: uppercase;
 }
 .landing-img {
+    width: 600px;
+}
+.landing-img-div {
     display: block;
     margin: auto;
     width: 600px;
+}
+.social-icons {
+    position: relative;
+    bottom: 385px;
+    left: 380px;
+    width: 40px;
+    padding: 4px;
+}
+.social-icons-div {
+    transform: skewY(24deg);
+        
 }
